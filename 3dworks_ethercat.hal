@@ -5,13 +5,13 @@ loadrt lcec
 loadrt cia402 count=3
 
 setp cia402.0.csp-mode 1
-setp cia402.0.pos-scale 3355443.2
+setp cia402.0.pos-scale 100000
 setp cia402.0.velo-scale 10
 setp cia402.1.csp-mode 1
-setp cia402.1.pos-scale 3355443.2
+setp cia402.1.pos-scale 100000
 setp cia402.1.velo-scale 5
 setp cia402.2.csp-mode 1
-setp cia402.2.pos-scale 3355443.2
+setp cia402.2.pos-scale 100000
 setp cia402.2.velo-scale 5
 
 addf motion-command-handler   servo-thread
