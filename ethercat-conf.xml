@@ -1,5 +1,5 @@
 <masters>
-<master idx="0" appTimePeriod="1000000" refClockSyncCycles="5">
+<master idx="0" appTimePeriod="1000000" refClockSyncCycles="1000">
   <slave idx="0" type="generic" vid="000001dd" pid="00006080" configPdos="true">
     <dcConf assignActivate="300" sync0Cycle="*1" sync0Shift="0"/>
     <syncManager idx="2" dir="out">
